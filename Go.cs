@@ -15,5 +15,10 @@ namespace Rumle.Golang
             t.IsBackground = true;
             t.Start();
         }
+
+        public static Select Select()
+        {
+            return new Select();
+        }
     }
 }
