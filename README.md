@@ -4,13 +4,13 @@ A small POC project where i try implementing Golang features in C#.
 
 This is just something that I have put togehter after reading a bit about Go, not something that I would use in a real production environment. Each "goroutine" runs in its own background thread.
 
-__Current Features__:
+__Features__:
 
 * `chan` : `Rumle.Golang.Channel<T>`
 * `select`: `Rumle.Golang.Select`
 * `go`: `Rumle.Golang.Go.Run(Action func)`
 
-The following code will run a produce the same output as the examples that they are based on.
+The following code will run and produce the same output as the examples that they are based on.
 
 ### `chan` example
 
