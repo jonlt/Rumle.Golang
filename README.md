@@ -47,6 +47,8 @@ The original Go program can be found here: http://talks.golang.org/2013/advconc.
 
 The follow C# code is based on an example by @mmcgrana
 
+    class Program
+	{
         static void Main(string[] args)
         {
             var c1 = new Channel<string>();
@@ -72,6 +74,7 @@ The follow C# code is based on an example by @mmcgrana
                   .Run();
             }
         }
+    }
         
 The original Go program can be found here: https://gobyexample.com/select
 
