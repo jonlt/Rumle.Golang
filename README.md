@@ -6,7 +6,7 @@ This is just something that I have put togehter in an evening after reading a bi
 
 The following code will run a produce the same output as the examples that they are based on.
 
-### Golang channel in C# `Rumle.Golang.Channel&lt;T&gt;`
+### Golang `chan` in C# `Rumle.Golang.Channel<T>`
 
 The following peace of C# code is based on Sameer Ajmanis ping-pong example from his __Advanced Go Concurrency Patterns__ talk: 
 
@@ -43,7 +43,7 @@ The following peace of C# code is based on Sameer Ajmanis ping-pong example from
 The original Go program can be found here: http://talks.golang.org/2013/advconc.slide#6
 
 
-### Golang select in C# `Rumle.Golang..Select`
+### Golang `select` in C# `Rumle.Golang.Select`
 
 The follow C# code is based on an example by @mmcgrana
 
