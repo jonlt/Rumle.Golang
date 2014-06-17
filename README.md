@@ -2,11 +2,17 @@
 
 A small POC project where i try implementing Golang features in C#. 
 
-This is just something that I have put togehter in an evening after reading a bit about Go, not something that I would use in a real production environment. Each "goroutine" runs in its own background thread.
+This is just something that I have put togehter after reading a bit about Go, not something that I would use in a real production environment. Each "goroutine" runs in its own background thread.
+
+__Current Features__:
+
+* `chan` : `Rumle.Golang.Channel<T>`
+* `select`: `Rumle.Golang.Select`
+* `go`: `Rumle.Golang.Go.Run(Action func)`
 
 The following code will run a produce the same output as the examples that they are based on.
 
-### Golang `chan` in C# `Rumle.Golang.Channel<T>`
+### `chan` example
 
 The following peace of C# code is based on Sameer Ajmanis ping-pong example from his __Advanced Go Concurrency Patterns__ talk: 
 
@@ -43,7 +49,7 @@ The following peace of C# code is based on Sameer Ajmanis ping-pong example from
 The original Go program can be found here: http://talks.golang.org/2013/advconc.slide#6
 
 
-### Golang `select` in C# `Rumle.Golang.Select`
+### `select` example
 
 The follow C# code is based on an example by @mmcgrana
 
