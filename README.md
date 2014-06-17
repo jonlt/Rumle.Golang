@@ -6,7 +6,7 @@ This is just something that I have put togehter in an evening after reading a bi
 
 
 
-### Channel<T>
+### Channel&lt;T&gt;
 
 The following peace of C# code is based on Sameer Ajmanis ping-pong example from his __Advanced Go Concurrency Patterns__ talk: 
 
